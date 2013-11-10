@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+{
+    
+}
+
+@property (weak, nonatomic) IBOutlet UIButton *KostyaAdded;
+@property (weak, nonatomic) IBOutlet UILabel *LabelByKostya;
+
+-(IBAction)addedByKostya:(id)sender;
+
+
 @end

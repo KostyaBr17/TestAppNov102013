@@ -14,6 +14,15 @@
 
 @implementation ViewController
 
+@synthesize KostyaAdded, LabelByKostya;
+
+-(IBAction)addedByKostya:(id)sender
+{
+    LabelByKostya.text=@"Label added by Kostya Osipov";
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
